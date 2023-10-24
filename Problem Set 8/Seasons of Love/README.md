@@ -6,10 +6,13 @@ In a file called seasons.py, implement a program that prompts the user for their
 
 Structure your program per the below, not only with a main function but also with one or more other functions as well:
 
+-------------------------------
+
 from datetime import date
 
 
 def main():
+
     ...
 
 
@@ -17,7 +20,10 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
+
+----------------------    
 
 You’re welcome to import other (built-in) libraries, or any that are specified in the below hints. Exit via sys.exit if the user does not input a date in YYYY-MM-DD format. Ensure that your program will not raise any exceptions.
 
