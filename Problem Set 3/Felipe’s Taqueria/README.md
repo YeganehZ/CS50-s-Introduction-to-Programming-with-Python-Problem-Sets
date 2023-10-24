@@ -2,7 +2,9 @@
 
 One of the most popular places to eat in Harvard Square is Felipe’s Taqueria, which offers a menu of entrees, per the dict below, wherein the value of each key is a price in dollars:
 
-{   "Baja Taco": 4.00,
+{   
+
+    "Baja Taco": 4.00,
     
     "Burrito": 7.50,
     
