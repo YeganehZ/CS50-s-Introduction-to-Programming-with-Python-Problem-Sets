@@ -1,0 +1,18 @@
+'''
+When texting or tweeting, it’s not uncommon to 
+shorten words to save time or space, as by omitting 
+vowels, much like Twitter was originally called twttr. 
+In a file called twttr.py, implement a program that 
+prompts the user for a str of text and then outputs 
+that same text but with all vowels (A, E, I, O, and U) 
+omitted, whether inputted in uppercase or lowercase.
+
+'''
+
+text=input("Input: ")
+print("Output: ", end="")
+for txt in text:
+    if txt.upper()=="A" or txt.upper()=="I" or txt.upper()=="E" or txt.upper()=="U" or txt.upper()=="O":
+       print("", sep="", end="")
+    else:
+        print(txt, end="")
