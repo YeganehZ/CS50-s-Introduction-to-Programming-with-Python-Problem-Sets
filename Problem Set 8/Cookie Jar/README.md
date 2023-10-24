@@ -18,7 +18,9 @@ Structure your class per the below. You may not alter these methods’ parameter
 
 -------------------------------
 
+
 class Jar:
+
 
     def __init__(self, capacity=12):
     
