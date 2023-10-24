@@ -21,6 +21,7 @@ def is_even(n):
 isn’t really twice as complex as a function like
 
 def is_even(n):
+
     return n % 2 == 0
 
 even though the former has (more than) twice as many lines of code. In fact, the former might arguably be simpler if it’s easier to read! So lines of code should be taken with a grain of salt.
