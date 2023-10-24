@@ -1,8 +1,3 @@
-'''
-Check out the link here for description:
-https://cs50.harvard.edu/python/2022/psets/8/shirtificate/
-
-'''
 
 from fpdf import FPDF
 class PDF(FPDF):
